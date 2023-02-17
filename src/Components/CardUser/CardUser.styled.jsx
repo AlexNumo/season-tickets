@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackImg from '../../icons/backIMG.jpeg';
+// import BackImg from '../../icons/backIMG.jpeg';
 
 const Wrapper = styled.div`
   display: flex;
@@ -36,9 +36,9 @@ const WrapperHeart = styled.div`
 `;
 
 const WrapperBackIMG = styled.div`
-  background-image: url(${ BackImg});
+  /* 
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 100%;
   height: 145px;
   margin-left: 1px;
