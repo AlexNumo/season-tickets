@@ -30,9 +30,9 @@ const SeasonTickets = () => {
     <Wrapper>
       <p>Введіть свій номер телефону</p>
       <input type="text" onChange={e => {setInputTel(e.target.value)}} />
-      {/* <div>
+      <div>
         <CardUser item={findTel } />
-      </div> */}
+      </div>
     </Wrapper>
   )
 };

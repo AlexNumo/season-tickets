@@ -35,16 +35,6 @@ const WrapperHeart = styled.div`
   flex-direction: row;
 `;
 
-const WrapperBackIMG = styled.div`
-  /* 
-  background-size: contain;
-  background-repeat: no-repeat; */
-  width: 100%;
-  height: 145px;
-  margin-left: 1px;
-  margin-right: 1px;
-`;
-
 const DateSeason = styled.div`
   font-family: 'Philosopher', sans-serif;
   font-weight: 300;
@@ -55,7 +45,8 @@ const DateSeason = styled.div`
   align-items: center;
   width: 250px;
   height: 35px;
-  background-color: rgba(248, 212, 216, 1);
+  margin-top: 170px;
+  /* background-color: rgba(248, 212, 216, 1); */
 `;
 
 export {
@@ -63,6 +54,5 @@ export {
   NameSeason,
   NameUser,
   WrapperHeart,
-  WrapperBackIMG,
   DateSeason
 }
